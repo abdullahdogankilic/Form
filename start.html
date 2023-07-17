@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Lesson</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Lütfen Eksiksiz Doldurun</h1>
+    <br /><br />
+    <div>
+      <h2>Kişisel Bilgiler</h2>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div>
+        <label for="Last_name">Last name : </label>
+        <input type="text" name="Last_name" id="Last_name" />
+      </div>
+
+      <div>
+        <label for="birth">Date of birth : </label>
+        <input type="date" name="birth" id="birth" />
+      </div>
+
+      <div>
+        <label for="phone">Telephone number: </label>
+        <input type="text" name="phone" id="phone" min="11" max="11" />
+      </div>
+
+      <div>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" />
+      </div>
+    </div>
+    <div>
+      <p>package options</p>
+      <label for="package1">Free</label>
+      <input type="radio" name="package" id="package1" />
+      <label for="package2">500$</label>
+      <input type="radio" name="package" id="package2" />
+      <label for="package3">1000$</label>
+      <input type="radio" name="package" id="package3" />
+    </div>
+    <div>
+      <h2>Kart Bilgileri</h2>
+      <div>
+        <label for="card">Credit card number:</label>
+        <input type="text" name="card" min="16" max="16" />
+      </div>
+      <div>
+        <label for="Expiration">Expiration date:</label>
+        <input type="month" name="Expiration" />
+      </div>
+      <div>
+        <label for="CVS">CVS</label>
+        <input type="number" name="CVS" max="999" min="100" />
+      </div>
+    </div>
+
+    <div>
+      <label for="Billing_Address">Billing Address:</label>
+      <textarea name="Billing_Address" id="" cols="30" rows="10"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </body>
+</html>
